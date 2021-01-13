@@ -1,0 +1,64 @@
+:root {
+    --bg-color: #FDEFCE;
+    --text-color: #2E0C21;
+    --link-color: #7a1f57;
+    --hf-bg-color: #FDE7B4;
+    --hf-text-color: #202079;
+    --list-bg-color: #FCE7B6;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #2E0C21;
+        --text-color: #FDE7B4;
+        --link-color: #F9B718;
+        --hf-bg-color: #A22A74;
+        --hf-text-color: #FEF7E6;
+        --list-bg-color: #3D102C;
+    }
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: sans-serif;
+}
+
+a {
+    color: var(--link-color)
+}
+
+main {
+    padding-left: 2.5rem;
+    font-size: 125%;
+    max-width: 80ch;
+}
+
+p {
+    padding-left: 0.5rem;
+}
+
+header, footer {
+    padding: 1rem;
+    background-color: var(--hf-bg-color);
+    color: var(--hf-text-color);
+    border-radius: 2rem;
+    font-size: 150%;
+}
+
+article {
+    padding: 0.05rem 1rem;
+}
+
+#resourceList {
+    background-color: var(--list-bg-color);
+    border-radius: 0.5rem;
+}
+
+#metaInfo {
+    font-size: 95%;
+}
+
+hr {
+    margin: 1.5rem;
+}
