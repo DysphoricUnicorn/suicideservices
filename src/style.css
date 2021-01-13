@@ -62,3 +62,24 @@ article {
 hr {
     margin: 1.5rem;
 }
+
+
+@media (max-device-width: 350px) {
+    header, footer {
+        width: 100vw;
+        text-align: center;
+        font-size: 100%;
+        margin: 0;
+        padding: 0.0rem;
+    }
+}
+
+@media (max-device-width: 500px) {
+    main {
+        font-size: 100%;
+    }
+
+    header, footer {
+        font-size: 125%;
+    }
+}
