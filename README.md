@@ -1,4 +1,13 @@
-# suicide.services
+# suicide(.)services
+
+## Update
+
+Because capitalism, I was unable to afford renewing the domain.  
+Luckily you can still see it on the [Wayback Machine](https://web.archive.org/web/20211011133217/https://suicide.services/).
+
+The repository is archived for now since the domain will probably be bought up by domain landlords as soon as it expires.
+
+## Old readme
 
 This is a small collection of help resources for people with suicidal thoughts.
 
